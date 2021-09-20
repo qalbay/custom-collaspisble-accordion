@@ -1,0 +1,40 @@
+@import "../../../styles.scss";
+
+.borderbottom {
+    border-bottom: 1px solid #931023 !important;
+}
+
+.search-icon {
+    position: absolute;
+    top: 11px;
+    left: 7px;
+}
+
+.accordion-button::after {
+    // background-image: url("../../../assets/images/faqs/max.png");
+    background: none;
+    content: "\002B";
+    color: #931023;
+    font-size: 32px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    // background-image: url("../../../assets/images/faqs/min.png");
+    background: none;
+    content: "\2212";
+    color: #931023;
+    font-size: 32px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #931023;
+    background-color: white;
+    box-shadow: none;
+}
+.accordion-button {
+    box-shadow: none;
+}
+.accordion-body {
+    background: #f6f1f7;
+    color: #9b969c;
+}
